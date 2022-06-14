@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang ="en"> 
+	<head> 
+		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="css/style.css">
+			<title> Godfrey's school site</title>
+		
+			
+			<style>
+			.header{
+			background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("images/banner.png");
+			background-position:center;
+			background-size:cover;
+			position:relative;
+			}
+			
+			
+			.cta{
+			background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+			 url("images/banner2.jpg");
+			 background-position:center;
+			 background-size:cover;
+			 border-radius:10px;
+			 text-align:center;
+			 padding:13% 0;
+			 margin:auto;
+			 margin-top:100px;
+			 margin-bottom:70px;
+			
+			}
+			
+			.sub-header{
+				background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("images/background.jpg");
+				background-position:center;
+				background-size:cover;
+				
+				
+			}
+			
+			
+			</style>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+		<!--	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
+		
+			</head>
+	
+	
+	  <body>
+			<section class="sub-header">
+			<nav>
+				<a href="home.html"><img src="images/logo.png" alt="our logo"></a>
+				<div class="nav-links" id="navLinks">
+				<img src="images/exit.png" class="exit" alt ="exit" onclick ="closeNav()"/>
+					<ul>
+						<li> <a href="index.html" >HOME</a></li>
+						<li> <a href="about-page.html" >ABOUT</a></li>
+						<li> <a href="course-page.html" >COURSES</a></li>
+						<li> <a href="blog-page.html" >BLOG</a></li>
+						<li> <a href="contact-page.html" >CONTACT</a></li>
+					
+					</ul>
+				</div>
+				<img src="images/menu.png" class="menu" alt ="menu" onclick ="openNav()"/>
+				
+			</nav>
+	
+			<h1> Contact Us </h1>		
+			</section>
+			
+			<section class="location">
+			
+				<!-----<div class="mapouter">
+					<div class="gmap_canvas">
+						<iframe width="600" height="500" id="gmap_canvas"
+						 src="https://maps.google.com/maps?q=As%2045,%20Ipaja%20Lagos,
+						 %20nigeria&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" 
+						 scrolling="no" marginheight="0" marginwidth="0"></iframe>
+						 <a href="https://123movies-to.org"></a><br>
+					<style>
+					.mapouter{position:relative;text-align:right;height:500px;width:600px;}
+					</style><a href="https://www.embedgooglemap.net">embed google maps html</a>
+					<style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
+					</style>
+				</div>
+			</div>------>
+			
+			<div style="overflow:hidden;width: 100%;position: relative;">
+			<iframe width="600" height="450" src="https://maps.google.com/maps?width=600&amp;
+			height=450&amp;hl=en&amp;q=AA%2045%2C%20Ipaja%2C%20Lagos%20Nigeria+(Title)&amp;
+			ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no"
+			 marginheight="0" marginwidth="0">
+			 </iframe>
+			 <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;
+			 margin-left: auto;margin-right: auto;color: #000;text-align: center;">
+			 <small style="line-height: 1.8;font-size: 2px;background: #fff;">
+			 Powered by <a href="https://embedgooglemaps.com/">Embed Google Maps</a>
+			  & <a href="https://spelsidorna.nu/">spelsidorna</a></small></div><style>
+			  #gmap_canvas img{max-width:none!important;background:none!important}</style>
+			  </div><br />
+			
+			
+			</section>
+				
+			<section class="contact-us">
+			
+			<button class="btn"><i class="fa fa-home"></i> Home</button> <br>
+			
+			<div class="row">
+				<div class="contact-col">
+					
+					<div>
+					<i class="fa fa-home"> </i>
+					<span>
+					<h5> XYZ, Road. ABC Building </h5>
+					<p> Ipaja, Lagos Nigeria</p>
+					</span>
+					</div>
+					
+					<div>
+					<i class="fa fa-phone"> </i>
+					<span>
+					<h5> 08129987446 </h5>
+					<p> Monday to Saturday, 9AM - 9PM</p>
+					</span>	
+					</div>
+					
+					<div>
+					<i class="fa fa-envelope-o"> </i>
+					<span>
+					<h5>offehuzezi09<br>@gmail.com </h5>
+					<p> Email us your query</p>
+					</span>	
+					</div>
+					
+				</div>
+			
+				<div class="contact-col">
+				
+				<form action="form-handler.php" method="post">
+				<input type="text" name="name" placeholder="Enter your name"required>
+				<input type="email" name="email" placeholder="Enter Email" required>
+				<input type="text" name="subject" placeholder="Subject Name" required>
+				<textarea row="8" name="message" placeholder="Message"> </textarea>
+				<button type="submit" class="hero-btn red-btn" > Send Message </button>
+				
+				</form>
+			
+				</div>
+				
+			</div>
+			
+			</section>
+			
+			
+			
+			
+			
+		
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>hero affiliate which is the community of top performance in the 
+			 affiliate marketing space where you are going to be learning other 
+		powerful strategies for making sales organically without driving paid traffic </p>
+			<div class="iconss">
+				<img src="images/facebook.png" class="social">
+				<img src="images/twitter.png" class="socials">
+				<img src="images/instagram.png" class="social">
+				<img src="images/telegram.png" class="social">				
+			</div>
+				<p>Made with <img src="images/whitestar.png" class="social"> By <a href="https://www.officialpmcservices.com/index.html" >P.M.C</a></p>
+				</section>
+		
+		
+		
+		<!--	<script>
+			
+			var navLinks = document.getElementById("navLinks");
+				function hideMenu(){
+					navLinks.style.right = "0";
+				}
+				function showMenu(){
+				navLinks.style.right = "-200px";
+				}
+			</script> --->
+			
+			<script>
+			function openNav() {
+			document.getElementById("navLinks").style.width = "200px";
+			}
+			
+			function closeNav() {
+			document.getElementById("navLinks").style.width = "0";
+			}
+			</script>
+			
+	  </body>
+	  </html>
+	  

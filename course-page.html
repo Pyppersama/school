@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang ="en"> 
+	<head> 
+		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+			<title> Godfrey's school site</title>
+		
+			
+			<style>
+			.header{
+			background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("images/banner.png");
+			background-position:center;
+			background-size:cover;
+			position:relative;
+			}
+			
+			
+			.cta{
+			background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+			 url("images/banner2.jpg");
+			 background-position:center;
+			 background-size:cover;
+			 border-radius:10px;
+			 text-align:center;
+			 padding:13% 0;
+			 margin:auto;
+			 margin-top:100px;
+			 margin-bottom:70px;
+			
+			}
+			
+			.sub-header{
+				background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("images/background.jpg");
+				background-position:center;
+				background-size:cover;
+				
+				
+			}
+			</style>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+		<!--	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
+		
+			</head>
+	
+	
+	  <body>
+			<section class="sub-header">
+			<nav>
+				<a href="home.html"><img src="images/logo.png" alt="our logo"></a>
+				<div class="nav-links" id="navLinks">
+				<img src="images/exit.png" class="exit" alt ="exit" onclick ="closeNav()"/>
+					<ul>
+						<li> <a href="index.html" >HOME</a></li>
+						<li> <a href="about-page.html" >ABOUT</a></li>
+						<li> <a href="course-page.html" >COURSES</a></li>
+						<li> <a href="blog-page.html" >BLOG</a></li>
+						<li> <a href="contact-page.html" >CONTACT</a></li>
+					
+					</ul>
+				</div>
+				<img src="images/menu.png" class="menu" alt ="menu" onclick ="openNav()"/>
+				
+			</nav>
+	
+			<h1> OUR COURSES </h1>		
+			</section>
+			
+		<section class="course">
+		<h1>Courses we Offer</h1>
+		<p> The courses listed down below are the list of courses our great university
+		offers to its students</p>	
+		
+		<div class="row">
+		<div class="course-col">
+		<h3>Intermediate</h3>
+		<p>To enroll into the Intermediate Course currently it costs 40,000
+		and for that amount you are going to be getting full access to the course
+		materials where you are going to be learning everything you need</p>
+		</div>
+		
+		<div class="course-col">
+		<h3>Degree</h3>
+		<p>To enroll into the Degree Course currently it costs 60,000
+		and for that amount you are going to be getting full access to the course
+		materials where you are going to be learning everything you need</p>
+		</div>
+		
+		<div class="course-col">
+		<h3>Post-Graduation</h3>
+		<p>To enroll into the Post-Graduation Courses currently it costs 50,000
+		and for that amount you are going to be getting full access to the course
+		materials where you are going to be learning everything you need</p>
+		</div>
+		
+		</div>
+		
+		</section>
+		
+		<section class="facilities">
+		<h1>Our Facilities</h1>
+		<p>The Infrastructures and facilities here in our great university serves as 
+		a medium to groom our students into outstanding individual in the nearest
+		future</p>
+		
+		<div class="row">
+		<div class="facilities-col">
+		<img src="images/library.png">
+		<h3>World Class Library</h3>
+		<p> The University's library can clearly be seen as anaccumulation of this 
+		institution's wealth of knowledge, it is clearly a pillar of the University.</p>
+		</div>		
+		
+		<div class="facilities-col">
+		<img src="images/basketball.png">
+		<h3>Largest Play Ground</h3>
+		<p> The University's library can clearly be seen as anaccumulation of this 
+		institution's wealth of knowledge, it is clearly a pillar of the University.</p>
+		</div>		
+		
+		<div class="facilities-col">
+		<img src="images/cafeteria.png">
+		<h3>Tasty and Healthy Food</h3>
+		<p> The University's library can clearly be seen as anaccumulation of this 
+		institution's wealth of knowledge, it is clearly a pillar of the University.</p>
+		</div>		
+		
+		</div>
+		
+		</section>
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>hero affiliate which is the community of top performance in the 
+			 affiliate marketing space where you are going to be learning other 
+		powerful strategies for making sales organically without driving paid traffic </p>
+			<div class="iconss">
+				<img src="images/facebook.png" class="social">
+				<img src="images/twitter.png" class="socials">
+				<img src="images/instagram.png" class="social">
+				<img src="images/telegram.png" class="social">				
+			</div>
+				<p>Made with <img src="images/whitestar.png" class="social"> By <a href="https://www.officialpmcservices.com/index.html" >P.M.C</a></p>
+		</section>
+		
+		
+		
+		<!--	<script>
+			
+			var navLinks = document.getElementById("navLinks");
+				function hideMenu(){
+					navLinks.style.right = "0";
+				}
+				function showMenu(){
+				navLinks.style.right = "-200px";
+				}
+			</script> --->
+			
+			<script>
+			function openNav() {
+			document.getElementById("navLinks").style.width = "200px";
+			}
+			
+			function closeNav() {
+			document.getElementById("navLinks").style.width = "0";
+			}
+			</script>
+			
+	  </body>
+	  </html>
+	  
